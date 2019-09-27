@@ -14,7 +14,7 @@
 
 ## Training
 
-1. Download the original fusion data (``cd fusion; bash fusion/dl.sh``) and extract each .tar.gz. The fusion directory should look like this:
+1. Download and extract the original fusion data (``cd fusion; bash fusion/dl.sh``). The fusion directory should look like this:
 ```bash
 $ tree fusion | head
 fusion
