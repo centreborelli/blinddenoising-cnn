@@ -97,7 +97,7 @@ def train(root,
         net.load_state_dict(torch.load(preload))
     net.cuda()
 
-    folders = get_folders(root+'fusion')
+    folders = get_folders(os.path.join(root, 'fusion'))
     da = dataaugmenter(sigma, cropsize, inchannels, outchannels)
     ds_train = AugmentedData(
         ConcatDataset(
