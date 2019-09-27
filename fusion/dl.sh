@@ -45,3 +45,6 @@ cd ..
 
 wait
 
+# tars contain some junk
+rm */take_*/*/.directory
+

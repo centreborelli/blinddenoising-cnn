@@ -19,5 +19,5 @@ for seq in $root/*/take_*/; do
     out=${seq/fusion/results/n2n_irvis_sigma$sigma/}
     rm -r $out; mkdir -p $out
     echo python main.py test $seq $out --model models/n2n_irvis_sigma$sigma/checkpoint_59.tar $args
-done | parallel
+done | parallel -j 4
 
