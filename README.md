@@ -8,7 +8,7 @@
   - iio
   - imageio
   - natsort
-  - progressbar
+  - progressbar2
   - fire
 * Tools from [imscript](https://github.com/mnhrdt/imscript) (plambda)
 
